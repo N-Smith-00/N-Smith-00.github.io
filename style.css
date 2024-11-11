@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+.title {
+    padding: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    background-image: url("https://blogs.lse.ac.uk/management/files/2016/11/technology-785742_1920.jpg");
+    background-size: cover;
+    height: 50%;
+    border-radius: 100px;
+    
+    
+    color: cornsilk;
+}
+.buttons {
+    display: inline-flex;
+}
+
+.socials{
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #00000000;
+    cursor: pointer;
+    height: 54px;
+    padding-bottom: 2px;
+    width: 54px;
+    margin: 10px;
+}
+#linkedin {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/174/174857.png");
+    background-size: 50px;
+}
+#github {
+    background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+    background-size: 50px;
+}
+
+.topnav {
+    background-color: green;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: forestgreen;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+li {
+    display: inline;
+}
